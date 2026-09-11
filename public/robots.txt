@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://albaraka-food-items.vercel.app/sitemap.xml
