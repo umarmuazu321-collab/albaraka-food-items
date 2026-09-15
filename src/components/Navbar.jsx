@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import logo from '../logo.png'
+import logo from '../logo.webp'
 
 const whatsappUrl = 'https://wa.me/2348133236467'
 
