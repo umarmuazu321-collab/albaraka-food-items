@@ -48,7 +48,7 @@ I would like to make an inquiry.`
         .contact-title { margin: 0; color: #073d28; font: 700 clamp(34px, 4vw, 54px)/1.08 'Playfair Display', Georgia, serif; letter-spacing: -1px; }
         .contact-intro { max-width: 620px; margin: 19px 0 0; color: #5f6f64; font-size: 15px; line-height: 1.75; }
         .contact-layout { display: grid; grid-template-columns: minmax(0, .85fr) minmax(400px, 1.15fr); gap: 42px; margin-top: 57px; }
-        .contact-info-card, .contact-form-card { border: 1px solid #e1e7dd; border-radius: 8px; background: #fff; box-shadow: 0 8px 22px rgba(30, 58, 40, .05); }
+        .contact-info-card, .contact-form-card { border: 1px solid #e1e7dd; border-radius: 16px; background: #fff; box-shadow: 0 12px 34px rgba(30, 58, 40, .07); }
         .contact-info-card { padding: 30px; }
         .contact-card-title { margin: 0 0 23px; color: #073d28; font: 700 28px/1.2 'Playfair Display', Georgia, serif; }
         .contact-details { display: grid; gap: 17px; margin: 0; }
@@ -58,20 +58,23 @@ I would like to make an inquiry.`
         .contact-detail a { color: #5f6f64; text-decoration-color: #e27a19; text-underline-offset: 3px; }
         .contact-detail a:hover, .contact-detail a:focus-visible { color: #0f5b38; }
         .contact-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 25px; }
-        .contact-action { display: inline-flex; align-items: center; justify-content: center; min-height: 43px; padding: 0 16px; border-radius: 4px; font-size: 13px; font-weight: 700; text-decoration: none; }
+        .contact-action { display: inline-flex; align-items: center; justify-content: center; min-height: 43px; padding: 0 16px; border-radius: 999px; font-size: 13px; font-weight: 700; text-decoration: none; }
         .contact-action-phone { border: 1px solid #cfd9cd; color: #0f5b38; }
         .contact-action-phone:hover, .contact-action-phone:focus-visible { border-color: #0f5b38; background: #edf4ec; }
         .contact-action-whatsapp { background: #0f5b38; color: #fff; }
         .contact-action-whatsapp:hover, .contact-action-whatsapp:focus-visible { background: #073d28; }
-        .contact-form-card { padding: 30px; }
+        .contact-form-card { padding: 34px; background: linear-gradient(155deg, #fff 0%, #fbfcf8 100%); }
+        .contact-info-card { background: linear-gradient(155deg, #fff 0%, #fbfcf8 100%); }
+        .contact-field input::placeholder, .contact-field textarea::placeholder { color: #9aa79d; }
+        .contact-submit { box-shadow: 0 8px 18px rgba(226, 122, 25, .2); }
         .contact-form { display: grid; gap: 17px; }
         .contact-field { display: grid; gap: 7px; }
         .contact-field label { color: #0f5b38; font-size: 12px; font-weight: 700; }
-        .contact-field input, .contact-field textarea { width: 100%; border: 1px solid #d7e0d5; border-radius: 4px; padding: 12px 13px; background: #fffdf8; color: #1e2921; font: inherit; font-size: 14px; }
+        .contact-field input, .contact-field textarea { width: 100%; border: 1px solid #d7e0d5; border-radius: 10px; padding: 13px 14px; background: #fffdf8; color: #1e2921; font: inherit; font-size: 14px; }
         .contact-field textarea { min-height: 112px; resize: vertical; }
         .contact-field input:focus, .contact-field textarea:focus { border-color: #0f5b38; outline: 3px solid rgba(226, 122, 25, .35); outline-offset: 1px; }
         .contact-error { margin: -2px 0 0; color: #a13b27; font-size: 12px; line-height: 1.5; }
-        .contact-submit { min-height: 46px; border: 0; border-radius: 4px; background: #e27a19; color: #20332a; cursor: pointer; font-size: 13px; font-weight: 700; transition: background .2s ease, transform .2s ease; }
+        .contact-submit { min-height: 46px; border: 0; border-radius: 999px; background: #e27a19; color: #20332a; cursor: pointer; font-size: 13px; font-weight: 700; transition: background .2s ease, transform .2s ease; }
         .contact-submit:hover, .contact-submit:focus-visible { background: #f19a35; transform: translateY(-2px); }
         @media (max-width: 900px) { .contact-layout { grid-template-columns: 1fr; gap: 24px; } }
         @media (max-width: 680px) { .contact-section { padding: 72px 18px 84px; } .contact-layout { margin-top: 43px; } .contact-info-card, .contact-form-card { padding: 24px 20px; } }
