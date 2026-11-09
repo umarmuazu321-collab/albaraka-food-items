@@ -1,4 +1,4 @@
-import logo from '../logo.webp'
+import heroProduct from '../products/IMG_20260908_130423_073.jpg'
 
 const whatsappUrl = 'https://wa.me/2348133236467'
 
@@ -17,7 +17,7 @@ function Hero() {
         </div>
         <div className="hero-visual">
           <div className="visual-backdrop" />
-          <div className="image-frame"><img src={logo} alt="ALBARKA FOOD ITEMS logo" style={{ objectFit: 'contain', padding: '5%', backgroundColor: '#ffffff' }} /></div>
+          <div className="image-frame"><img src={heroProduct} alt="Quality food product available at ALBARKA FOOD ITEMS" /></div>
           <div className="visual-note"><span className="note-icon" aria-hidden="true">&#10022;</span><span><strong>Everyday pantry</strong><small>Essentials for your table</small></span></div>
           <span className="visual-stamp" aria-hidden="true">PANTRY<br />STAPLES</span>
         </div>
