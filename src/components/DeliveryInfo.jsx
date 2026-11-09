@@ -28,14 +28,14 @@ function DeliveryInfo() {
         .delivery-title { margin: 0; color: #073d28; font: 700 clamp(34px, 4vw, 54px)/1.08 'Playfair Display', Georgia, serif; letter-spacing: -1px; }
         .delivery-intro { max-width: 650px; margin: 18px 0 0; color: #5f6f64; font-size: 15px; line-height: 1.75; }
         .delivery-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 42px; }
-        .delivery-card { min-height: 190px; padding: 23px 20px; border: 1px solid #e1e7dd; border-radius: 8px; background: #fff; box-shadow: 0 8px 22px rgba(30, 58, 40, .05); }
-        .delivery-mark { display: block; margin-bottom: 28px; color: #e27a19; font-size: 12px; font-weight: 700; letter-spacing: 1px; }
+        .delivery-card { min-height: 190px; padding: 23px 20px; border: 1px solid #e1e7dd; border-radius: 16px; background: linear-gradient(145deg, #fff 0%, #f8faf5 100%); box-shadow: 0 10px 28px rgba(30, 58, 40, .06); }
+        .delivery-mark { display: grid; width: 42px; height: 42px; place-items: center; margin-bottom: 24px; border-radius: 50%; background: #e7efe2; color: #e27a19; font-size: 12px; font-weight: 700; letter-spacing: 1px; }
         .delivery-card-title { margin: 0; color: #0f5b38; font-size: 16px; line-height: 1.3; }
         .delivery-card-description { margin: 10px 0 0; color: #5f6f64; font-size: 13px; line-height: 1.6; }
-        .delivery-cta-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-top: 42px; padding: 24px 28px; border-radius: 8px; background: #f0f4eb; }
+        .delivery-cta-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-top: 42px; padding: 24px 28px; border: 1px solid #e1e9dc; border-radius: 16px; background: linear-gradient(120deg, #eef4e9, #f8f6ed); }
         .delivery-cta-text { margin: 0; color: #5f6f64; font-size: 14px; line-height: 1.6; }
         .delivery-cta-text strong { display: block; margin-bottom: 3px; color: #073d28; font: 700 23px/1.2 'Playfair Display', Georgia, serif; }
-        .delivery-cta { display: inline-flex; flex: 0 0 auto; align-items: center; justify-content: center; min-height: 46px; padding: 0 18px; border-radius: 4px; background: #0f5b38; color: #fff; font-size: 13px; font-weight: 700; text-decoration: none; transition: background .2s ease, transform .2s ease; }
+        .delivery-cta { display: inline-flex; flex: 0 0 auto; align-items: center; justify-content: center; min-height: 46px; padding: 0 18px; border-radius: 999px; background: #0f5b38; color: #fff; font-size: 13px; font-weight: 700; text-decoration: none; transition: background .2s ease, transform .2s ease; }
         .delivery-cta:hover, .delivery-cta:focus-visible { background: #073d28; transform: translateY(-2px); }
         @media (max-width: 760px) { .delivery-section { padding: 72px 18px 84px; } .delivery-grid { grid-template-columns: 1fr; gap: 14px; margin-top: 34px; } .delivery-card { min-height: 0; } .delivery-cta-row { align-items: stretch; flex-direction: column; gap: 18px; margin-top: 30px; padding: 22px 20px; } .delivery-cta { width: 100%; } }
       `}</style>
